@@ -7,6 +7,7 @@
 .logo::first-letter {
   color: #1abc9c;
 }
+
 .logo {
   display: inline-block;
   font-size: 30px;
@@ -24,9 +25,11 @@
   list-style: none;
   width: 500px;
 }
+
 .site-navigation a:hover {
   color: #1abc9c;
 }
+
 nav {
   float: right;
 }
@@ -64,9 +67,11 @@ nav {
   margin: auto;
   padding-top: 105px;
 }
+
 .featured-list-item {
   list-style: none;
 }
+
 .featured-list-item {
   width: 255px;
   height: 320px;
@@ -77,6 +82,11 @@ nav {
 .featured-list-item:nth-child(4n) {
   margin-right: 0;
 }
-.header-shop {
-  display: inline;
+
+.header-shop h3 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(50, 50, 50);
+  color: #ffff;
+  display: block;
 }
