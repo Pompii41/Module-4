@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-.logo::first-letter {
+.logo:first-letter {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
   color: #1abc9c;
 }
 
@@ -93,7 +95,7 @@ nav {
 .header-shop-link {
   text-decoration: none;
   font-size: 18px;
-  font-family: "Roboto"[Black];
+  font-family: "Roboto";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.778;
@@ -112,7 +114,7 @@ nav {
   background-color: rgb(50, 50, 50);
 }
 
-.bottom-shop:hover {
+.featured-list-item:hover .bottom-shop {
 
   background-color: rgb(26, 188, 156);
   transition-duration: 220ms;
@@ -141,7 +143,7 @@ nav {
 .Section-title {
 
   font-size: 48px;
-  font-family: "Roboto"[Black];
+  font-family: "Roboto";
   color: rgb(81, 81, 81);
   line-height: 0.667;
   text-align: center;
