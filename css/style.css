@@ -60,6 +60,10 @@ nav {
 }
 
 /* main */
+.featured-list {
+  margin-top: 90px;
+}
+
 .image-shop {
   max-width: 100%;
   max-height: 100%;
