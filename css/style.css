@@ -5,7 +5,7 @@
 }
 
 .logo:first-letter {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   color: #1abc9c;
 }
@@ -21,11 +21,11 @@
   margin: auto;
   padding-top: 35px;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 110px;
 }
 
 .site-navigation {
   list-style: none;
-  width: 500px;
 }
 
 .site-navigation a:hover {
@@ -49,8 +49,7 @@ nav {
 .site-navigation a {
   text-decoration: none;
   font-size: 14px;
-  font-family: "Open Sans",
-    sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #0f0101;
   width: 335px;
   font-weight: bold;
@@ -61,8 +60,10 @@ nav {
 }
 
 /* main */
-.featured-list {
-  padding-top: 90px;
+.image-shop {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
 
 .featured-list-item {
@@ -74,7 +75,6 @@ nav {
   width: 1110px;
   margin: auto;
   margin-bottom: 84px;
-
 }
 
 .featured-list-item {
@@ -98,32 +98,28 @@ nav {
   font-family: "Roboto";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 1.778;
   text-align: left;
   padding: 0px 12px;
 }
 
-
-
 .header-shop {
   display: inline;
-
 }
 
 .bottom-shop {
   background-color: rgb(50, 50, 50);
+
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
 }
 
 .featured-list-item:hover .bottom-shop {
-
   background-color: rgb(26, 188, 156);
   transition-duration: 220ms;
 }
 
-
-
 .price-shop {
-
   float: right;
   font-size: 18px;
   font-family: "Roboto";
@@ -132,22 +128,14 @@ nav {
   text-align: center;
   padding: 0px 12px;
   background-color: rgba(255, 255, 255, 0.4);
-
-}
-
-.Name-of-product {
-  padding-top: 115px;
-
 }
 
 .Section-title {
-
   font-size: 48px;
   font-family: "Roboto";
   color: rgb(81, 81, 81);
-  line-height: 0.667;
-  text-align: center;
 
+  text-align: center;
 }
 
 .Section-title::after {
@@ -165,12 +153,10 @@ nav {
   float: left;
   margin-bottom: 15px;
   width: 347px;
-
 }
 
 .news-list-item a {
   font-size: 0px;
-
 }
 
 .news-list {
@@ -180,11 +166,10 @@ nav {
 
 .news-list-item:not(:last-child) {
   margin-right: 30px;
-
 }
 
 .news-sheet {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 .subtitle::after {
@@ -202,8 +187,6 @@ nav {
   line-height: 1.444;
 }
 
-
-
 .click {
   border-radius: 3px;
   background-color: rgb(78, 198, 171);
@@ -218,11 +201,11 @@ nav {
 }
 
 .click-button {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .news-list-item p {
-  padding-top: 30px;
+  margin-top: 30px;
   font-size: 14px;
   font-family: "OpenSans";
   color: rgb(85, 82, 82);
