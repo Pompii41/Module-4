@@ -26,6 +26,7 @@
 
 .site-navigation {
   list-style: none;
+  padding: 7px 0px;
 }
 
 .site-navigation a:hover {
@@ -103,7 +104,7 @@ nav {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-align: left;
-  padding: 0px 12px;
+  padding: 7px 12px;
 }
 
 .header-shop {
@@ -186,9 +187,11 @@ nav {
 
 .subtitle {
   font-size: 18px;
+  font-size: 16px;
   font-family: "OpenSans";
   color: rgb(85, 82, 82);
   line-height: 1.444;
+  margin-bottom: 30px;
 }
 
 .click {
@@ -204,13 +207,13 @@ nav {
   cursor: pointer;
 }
 
-.click-button {
-  margin-top: 20px;
+.image-news {
+  margin-bottom: 15px;
 }
-
 .news-list-item p {
-  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 14px;
+  font-size: 16px;
   font-family: "OpenSans";
   color: rgb(85, 82, 82);
   line-height: 1.857;
